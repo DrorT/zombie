@@ -1301,6 +1301,7 @@ class Browser extends EventEmitter {
   static Headers  = Fetch.Headers
   static Request  = Fetch.Request
   static Response = Fetch.Response
+  static FormData = Fetch.FormData
 
 
   // -- These defaults are used in any new browser instance --
